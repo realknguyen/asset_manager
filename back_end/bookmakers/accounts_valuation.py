@@ -12,7 +12,8 @@ def get_bookmakers_data():
 def get_bookmakers_total_value(accounts_data):
     total_value = 0
     for account in accounts_data:
-        total_value += Decimal(account["current_balance"]) + Decimal(account["pending_withdrawal"])
+        total_value += (Decimal(account["current_balance"]) + Decimal(account["pending_withdrawal"])
+                        + Decimal(account["inplay_balance"]))
     return total_value
 
 # Calculate total number of bookmakers excluding bank account.
