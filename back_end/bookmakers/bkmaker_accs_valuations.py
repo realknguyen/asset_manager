@@ -4,7 +4,7 @@ from decimal import Decimal
 # Read all bookmakers account data from bookmakers_data.json 
 # Also include bank account balance 
 def get_bookmakers_data():
-    with open('./back_end/bookmakers/account_data/accounts_data.json') as json_data:
+    with open('./back_end/bookmakers/accounts_data/accounts_data.json') as json_data:
         accounts_data = json.load(json_data)
     return accounts_data
 
@@ -25,9 +25,12 @@ def get_bookmakers_information(accounts_data):
         print("Name: " + str(account["booker_name"]))
         print("Current Balance: " + str(account["current_balance"]))
         print("Withdrawing Balance: " + str(account["pending_withdrawal"]))
-
+        print("--")
+        
 # List all current bookmaker accounts summary
 def get_all_bookmakers_summary(accounts_data):
     print("Total number of bookmakers: " + str(get_total_number_of_bookmakers(accounts_data)))
     get_bookmakers_information(accounts_data)
     print("Accounts total value: " + str(get_bookmakers_total_value(accounts_data)))
+    sperate_str = "-------------------------------------------------"
+    print(sperate_str)

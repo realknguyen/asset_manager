@@ -1,0 +1,65 @@
+[
+    {
+        "booker_name":"HSBC",
+        "account_type": "Bank Account",
+        "current_balance":"2000",
+        "inplay_balance":"0",
+        "pending_withdrawal":"0"
+    },
+
+    {
+        "booker_name":"Monzo",
+        "account_type": "Bank Account",
+        "current_balance":"2000",
+        "inplay_balance":"0",
+        "pending_withdrawal":"0"
+    },
+
+    {
+        "booker_name":"Betdaq",
+        "account_type": "Exchange",
+        "current_balance":"1",
+        "inplay_balance":"0",
+        "pending_withdrawal":"1.10"
+    },
+
+    {
+        "booker_name":"Betfair",
+        "account_type": "Exchange",
+        "current_balance":"1",
+        "inplay_balance":"0",
+        "pending_withdrawal":"1.10"
+    },
+
+    {
+        "booker_name":"Smarkets",
+        "account_type": "Exchange",
+        "current_balance":"1",
+        "inplay_balance":"0",
+        "pending_withdrawal":"1.10"
+    },
+
+    {
+        "booker_name":"PaddyPower",
+        "account_type": "Bookmaker",
+        "current_balance":"0.00",
+        "inplay_balance":"0",
+        "pending_withdrawal":"1.10"
+    },
+
+    {
+        "booker_name":"Skybet",
+        "account_type": "Bookmaker",
+        "current_balance":"0.00",
+        "inplay_balance":"0",
+        "pending_withdrawal":"7.10"
+    },
+
+    {
+        "booker_name":"Betway",
+        "account_type": "Bookmaker",
+        "current_balance":"1",
+        "inplay_balance":"0",
+        "pending_withdrawal":"2"
+    }
+]

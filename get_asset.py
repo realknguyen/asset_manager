@@ -7,7 +7,6 @@ import back_end.bookmakers.bkmaker_accs_valuations as bk_accs
 import back_end.utils.date_time as date_utls
 import back_end.utils.input_output as io_utls
 
-
 # Record each account's value.
 def update_current_account_values(dir_name, data):
     bk_accs.get_all_bookmakers_summary(data)
