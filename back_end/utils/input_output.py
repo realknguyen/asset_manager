@@ -1,8 +1,8 @@
 import os
 
 # Function to write data into a file.
-def wrt_data(data, path):
-    f = open(path + "/summary_data", "a+")
+def wrt_data(data, path, filename="/summary_data"):
+    f = open(path + filename, "a+")
     f.write(data + "\n")
     f.close()
 
