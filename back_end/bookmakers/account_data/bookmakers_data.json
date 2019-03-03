@@ -1,0 +1,25 @@
+[
+    {
+        "booker_name":"HSBC",
+        "current_balance":"2000",
+        "pending_withdrawal":"0"
+    },
+
+    {
+        "booker_name":"PaddyPower",
+        "current_balance":"0.00",
+        "pending_withdrawal":"1.10"
+    },
+
+    {
+        "booker_name":"Skybet",
+        "current_balance":"0.00",
+        "pending_withdrawal":"7.10"
+    },
+
+    {
+        "booker_name":"Betway",
+        "current_balance":"1",
+        "pending_withdrawal":"2"
+    }
+]
