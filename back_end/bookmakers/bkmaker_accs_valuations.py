@@ -4,7 +4,7 @@ from decimal import Decimal
 # Read all bookmakers account data from bookmakers_data.json 
 # Also include bank account balance 
 def get_bookmakers_data():
-    with open('./back_end/bookmakers/account_data/bookmakers_data.json') as json_data:
+    with open('./back_end/bookmakers/account_data/accounts_data.json') as json_data:
         accounts_data = json.load(json_data)
     return accounts_data
 
@@ -17,7 +17,7 @@ def get_bookmakers_total_value(accounts_data):
 
 # Calculate total number of bookmakers excluding bank account.
 def get_total_number_of_bookmakers(accounts_data):
-    return len(accounts_data)
+    return len(accounts_data) - 1
 
 # List all the current bookmakers information
 def get_bookmakers_information(accounts_data):
